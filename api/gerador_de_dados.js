@@ -5,6 +5,7 @@ import fs from "fs";
 import path from "path";
 
 const app = express();
+app.set("trust proxy", true);
 
 // COLOQUE SEU ENDEREÇO PÚBLICO DA REDE BASE ABAIXO
 const WALLET_ADDRESS = "0x2B2647D7326BC6f243b5b9c666Ff22611e4c9776";
