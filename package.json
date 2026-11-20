@@ -1,0 +1,13 @@
+{
+  "name": "databasev1-x402",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node api/gerador_de_dados.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "x402-express": "^0.3.0"
+  }
+}
+

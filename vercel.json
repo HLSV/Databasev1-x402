@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/gerador_de_dados.js",
+      "use": "@vercel/node",
+      "config": {
+        "includeFiles": ["dataset.json"]
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/gerador_de_dados",
+      "dest": "api/gerador_de_dados.js"
+    }
+  ]
+}
